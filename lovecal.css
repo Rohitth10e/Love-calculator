@@ -53,3 +53,50 @@ body{
     font-weight: 500;
     outline: none;
 }
+
+@media (width<=449px){
+    .container{
+        margin: 10px auto;
+        padding: 20px 30px;
+        width: 200px;
+        display: flex;
+        background-color: hotpink;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    .display{
+        font-size: medium;
+    }
+    
+    .ip{
+        padding: 5px 10px;
+        border: 1px solid white;
+        color: white;
+        background-color: hotpink;
+        font-size: medium;
+        font-weight: 600;
+    }
+    
+    .ip:hover{
+        transition: 0.2s ease-in-out;
+        background-color: white;
+        border: 1px hotpink;
+        color: hotpink;
+        margin-top: 10px;
+    }
+    
+    .name1,.name2{
+        padding: 10px 15px;
+        margin: 5px 0px;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        font-size: medium;
+        font-weight: 500;
+        outline: none;
+    }
+}
